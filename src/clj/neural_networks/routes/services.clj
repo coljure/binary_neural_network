@@ -4,7 +4,7 @@
             [schema.core :as s]
             [neural-networks.routes.services.neuron :as neuron]))
 
-(s/defschema Gates (s/enum :and :or))
+(s/defschema Gates (s/enum :and :or :xor))
 
 (defapi service-routes
   {:swagger {:ui "/swagger-ui"

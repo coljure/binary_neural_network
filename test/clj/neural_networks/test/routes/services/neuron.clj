@@ -17,3 +17,11 @@
     (is (= 1 (get-output [0 1] :or)))
     (is (= 1 (get-output [1 0] :or)))
     (is (= 1 (get-output [1 1] :or)))))
+
+(deftest xor-gates-test
+  (testing "Test or gate"
+    (training :xor)
+    (is (= 0 (get-output [0 0] :xor)))
+    (is (= 1 (get-output [0 1] :xor)))
+    (is (= 1 (get-output [1 0] :xor)))
+    (is (= 0 (get-output [1 1] :xor)))))

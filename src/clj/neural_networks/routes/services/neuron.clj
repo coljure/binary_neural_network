@@ -24,6 +24,14 @@
                 [ 1 -1  1]
                 [ 1  1  1]]})
 
+(defmethod get-gate :xor [params]
+  {:weight weight-xor
+   :theta  theta-xor
+   :logic-table [[-1 -1 -1]
+                [-1  1  1]
+                [ 1 -1  1]
+                [ 1  1 -1]]})
+
 (defn valid? [y-expect y-actual]
   (prn "y-expect" y-expect "y-actual" y-actual)
   (= y-expect y-actual))
