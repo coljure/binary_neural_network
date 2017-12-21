@@ -1,7 +1,8 @@
-# Neural Networks
+# Binary Neural Networks
 
 - Sample project used for [coljure meeting](https://www.meetup.com/es-ES/preview/Coljure/events/245702447).
 - The slides can be found from [Google presentation](https://docs.google.com/presentation/d/1_9BT1QwilR3Kt0BtoZyhNWQ9qMKkPEeWyyCW8kNYFPc)
+- All networks use supervised learning strategy.
 - This project trains neural networks for `or`, `and` and `xor` gates.
 
 ## Prerequisites
